@@ -1,0 +1,1262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="961.203" tests="29" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Abdallah Mohammed\OneDrive\Desktop\testing\netBeans\MyFinalProject_V2\target\test-classes;C:\Users\Abdallah Mohammed\OneDrive\Desktop\testing\netBeans\MyFinalProject_V2\target\classes;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Cairo"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\Abdallah Mohammed\AppData\Local\Temp\surefire2314208592782160327\surefirebooter-20250926204329965_3.jar C:\Users\Abdallah Mohammed\AppData\Local\Temp\surefire2314208592782160327 2025-09-26T20-43-29_773-jvmRun1 surefire-20250926204329965_1tmp surefire_0-20250926204329965_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Abdallah Mohammed\OneDrive\Desktop\testing\netBeans\MyFinalProject_V2\target\test-classes;C:\Users\Abdallah Mohammed\OneDrive\Desktop\testing\netBeans\MyFinalProject_V2\target\classes;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-java\4.34.0\selenium-java-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.34.0\selenium-chrome-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.34.0\selenium-chromium-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.34.0\selenium-devtools-v136-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.34.0\selenium-devtools-v137-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v138\4.34.0\selenium-devtools-v138-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.34.0\selenium-edge-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.34.0\selenium-firefox-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.34.0\selenium-ie-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.34.0\selenium-safari-driver-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Abdallah Mohammed\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\Abdallah Mohammed\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Abdallah Mohammed\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Abdallah Mohammed"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="C:\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Abdallah Mohammed\OneDrive\Desktop\testing\netBeans\MyFinalProject_V2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Abdallah Mohammed\AppData\Local\Temp\surefire2314208592782160327\surefirebooter-20250926204329965_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25+36-3489"/>
+    <property name="user.name" value="Abdallah Mohammed"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Abdallah Mohammed\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ABDALL~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="C:\Users\Abdallah Mohammed\OneDrive\Desktop\testing\netBeans\MyFinalProject_V2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\jdk-25\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WinAVR-20100110\bin;C:\WinAVR-20100110\utils\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Microchip\xc8\v2.36\bin;A:\MATLAB R2021a\runtime\win64;A:\MATLAB R2021a\bin;A:\MATLAB R2021a\polyspace\bin;C:\apache-maven-3.9.11\bin;C:\apache-maven-3.9.11;C:\jdk-25\bin;C:\allure-2.35.1\bin;C:\allure-2.35.1;C:\Users\Abdallah Mohammed\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Abdallah Mohammed\AppData\Local\Programs\Python\Python312\;C:\Users\Abdallah Mohammed\AppData\Local\Microsoft\WindowsApps;C:\Users\Abdallah Mohammed\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+36-3489"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="TC0" classname="suite1.PRODUCTS_TestsCase" time="20.497">
+    <system-out><![CDATA[Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="signup-form"]/h2
+the New User Signup chararter is displayed successfuly
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="text"]
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="email"]
+Edges: Clicked element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/button[@type="submit"]
+the element is displayed By.xpath: //div[@class="login-form"]/h2[@class="title text-center"]/b
+the New User Signup is displayed successfuly
+Edges: Clicked element By.xpath: //div[@id="uniform-id_gender1"]
+Edges: Sent keys to element By.xpath: //div[@class="required form-group"]/input[@type="password"]
+Edges: Selected dropdown value by value: 5
+Edges: Selected dropdown value by value: 12
+Edges: Selected dropdown value by value: 2001
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@class="checker"]/span/input[@id="newsletter"]
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@id="uniform-optin"]/span/input[@id="optin"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="first_name"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="last_name"]
+Edges: Sent keys to element By.xpath: //p[@class="form-group"]/input[@id="company"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address1"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address2"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="city"]
+Edges: Selected dropdown by index: 1
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="state"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="zipcode"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="mobile_number"]
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div[1]/form/button
+the element is displayed By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/h2/b
+Account Created is visable
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Sep 26, 2025 8:43:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC8" classname="suite1.PRODUCTS_TestsCase" time="19.678">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+the element is displayed By.xpath: //div[@class="col-sm-9 padding-right"]/div/h2
+The ALL PRODUCTS MASSAGE is not Displayed
+the element is displayed By.xpath: //div[@class="col-sm-9 padding-right"]
+The ALL PRODUCTS List is Displayed
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a
+The VIEW_PRODUCT_1st_BUTTON is clicked
+the element is displayed By.xpath: //div[@class="product-details"]/div[@class="col-sm-7"]/div[@class="product-information"]/h2
+The NAME PRODUCT 1st is Displayed
+the element is displayed By.xpath: //div[@class="product-details"]/div[@class="col-sm-7"]/div[@class="product-information"]/P[1]
+The CATEGORY PRODUCT 1st is Displayed
+the element is displayed By.xpath: //div[@class="product-details"]/div[@class="col-sm-7"]/div[@class="product-information"]/P[3]/b
+The CONDITION PRODUCT 1st is Displayed
+the element is displayed By.xpath: //div[@class="product-details"]/div[@class="col-sm-7"]/div[@class="product-information"]/P[2]/b
+The Availability PRODUCT 1st is Displayed
+the element is displayed By.xpath: //div[@class="product-details"]/div[@class="col-sm-7"]/div[@class="product-information"]/P[4]/b
+The Brand PRODUCT 1st is Displayed
+the test case 8 is done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:44:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC9" classname="suite1.PRODUCTS_TestsCase" time="14.478">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+the element is displayed By.xpath: //div[@class="col-sm-9 padding-right"]/div/h2
+The ALL PRODUCTS MASSAGE is Displayed
+Edges: Scrolled to element By.xpath: //div[@class="left-sidebar"]/div[@class="brands_products"]/div[@class="brands-name"]/ul[@class="nav nav-pills nav-stacked"]/li[1]/a[@href="/brand_products/Polo"] using Actions.scrollToElement().
+Edges: Sent keys to element By.xpath: //div[@class="container"]/input[@type="text"]
+Edges: Clicked element By.xpath: //div[@class="container"]/button[@type="button"]
+the element is displayed By.xpath: //div[@class="col-sm-9 padding-right"]/div/h2
+The Searched_product_massage is Displayed
+Total products found: 14
+Matched product: blue top
+Matched product: winter top
+Matched product: summer white top
+Matched product: madame top for women
+Matched product: fancy green top
+Matched product: sleeves printed top - white
+Matched product: half sleeves top schiffli detailing - pink
+Matched product: frozen tops for kids
+Matched product: full sleeves top cherry - pink
+Matched product: printed off shoulder top - white
+Matched product: sleeves top and short - blue & pink
+Not matched: little girls mr. panda shirt
+Not matched: colour blocked shirt – sky blue
+Matched product: lace top for women
+Products matched with keyword 'Top': 12/14
+the test case 9 is done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:44:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC12" classname="suite1.PRODUCTS_TestsCase" time="29.363">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Move to element By.xpath: //div[@class="productinfo text-center"]/img[@src="/get_product_picture/1"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: //div[@class="product-overlay"]/div[@class="overlay-content"]/a[@data-product-id="1"]
+Edges: Clicked element By.xpath: //div[@id="cartModal"]/div[@class="modal-dialog modal-confirm"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-success close-modal btn-block"]
+Edges: Move to element By.xpath: //div[@class="productinfo text-center"]/img[@src="/get_product_picture/2"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: //div[@class="product-overlay"]/div[@class="overlay-content"]/a[@data-product-id="2"]
+Edges: Clicked element By.xpath: //div[@id="cartModal"]/div[@class="modal-dialog modal-confirm"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-success close-modal btn-block"]
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_description"]/h4/a[@href="/product_details/1"]: Blue Top
+THE NAME OF PRODUCT 1 is MATCHED
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_price"]/p: Rs. 500
+the price in product 1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_quantity"]/button[@class="disabled"]: 1
+the quantity in product 1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_total"]/p[@class="cart_total_price"]: Rs. 500
+the TotalPrice in product 1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-2"]/td[@class="cart_description"]/h4/a[@href="/product_details/2"]: Men Tshirt
+THE NAME OF PRODUCT 2 is MATCHED
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-2"]/td[@class="cart_price"]/p: Rs. 400
+the price in product 2 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-2"]/td[@class="cart_quantity"]/button[@class="disabled"]: 1
+the quantity in product 2 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-2"]/td[@class="cart_total"]/p[@class="cart_total_price"]: Rs. 400
+the TotalPrice in product 2 is matched
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:44:53 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC13" classname="suite1.PRODUCTS_TestsCase" time="9.018">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+The PRODUCTS_Button has clicked
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a
+Edges: Cleared element By.xpath: //div[@class="product-details"]/div[@class="col-sm-7"]/div[@class="product-information"]/span/input[@name="quantity"]
+Edges: Sent keys to element By.xpath: //div[@class="product-details"]/div[@class="col-sm-7"]/div[@class="product-information"]/span/input[@name="quantity"]
+Edges: Clicked element By.xpath: //div[@class="product-information"]/span/button[@type="button"]
+Edges: Clicked element By.xpath: //div[@id="cartModal"]/div[@class="modal-dialog modal-confirm"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-success close-modal btn-block"]
+The FIRST PRODUCT AND Quantity 4  ADDED TO CART
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_quantity"]/button[@class="disabled"]: 4
+the Quantity is matched
+the test case 13 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:45:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC17" classname="suite1.PRODUCTS_TestsCase" time="49.935">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+The PRODUCTS_Button has clicked
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a
+Edges: Clicked element By.xpath: //div[@class="product-information"]/span/button[@type="button"]
+Edges: Clicked element By.xpath: //div[@id="cartModal"]/div[@class="modal-dialog modal-confirm"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-success close-modal btn-block"]
+The FIRST PRODUCT ADDED TO CART
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+cart button is clicked
+Edges: Page title is 'Automation Exercise - Checkout'
+the title_cart_page is matched
+Edges: Clicked element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_delete"]/a[@class="cart_quantity_delete"]
+the element is displayed By.xpath: //span[@id="empty_cart"]/p[@class="text-center"]
+The PRODUCT has deleted form the CART successfuly
+the test case 17 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:45:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC18" classname="suite1.PRODUCTS_TestsCase" time="25.315">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+the element is displayed By.xpath: //div[@class="col-sm-9 padding-right"]
+the PRODUCTS_LIST_Displayed is displayed
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: //a[@href="#Women"]/span[@class="badge pull-right"]
+Edges: Clicked element By.xpath: //div[@id="Women"]/div[@class="panel-body"]/ul/li[1]/a[@href="/category_products/1"]
+Edges: Got text from element By.xpath: //div[@class="features_items"]/h2[@class="title text-center"]: WOMEN - DRESS PRODUCTS
+the Women_Dress_Products_massage is displayed
+Edges: Clicked element By.xpath: //h4[@class="panel-title"]/a[@href="#Men"]/span[@class="badge pull-right"]
+Edges: Clicked element By.xpath: //div[@id="Men"]/div[@class="panel-body"]/ul/li[1]/a[@href="/category_products/3"]
+Edges: Got text from element By.xpath: //div[@class="features_items"]/h2[@class="title text-center"]: MEN - TSHIRTS PRODUCTS
+the Man_Tshirts_Products_massage is MATCHED
+the test case 18 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:46:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC19" classname="suite1.PRODUCTS_TestsCase" time="24.375">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+the element is displayed By.xpath: //div[@class="left-sidebar"]/div[@class="brands_products"]
+the brand list is displayed
+Edges: Clicked element By.xpath: //div[@class="left-sidebar"]/div[@class="brands_products"]/div[@class="brands-name"]/ul[@class="nav nav-pills nav-stacked"]/li[1]/a[@href="/brand_products/Polo"]
+Edges: Got text from element By.xpath: //div[@class="features_items"]/h2[@class="title text-center"]: BRAND - POLO PRODUCTS
+the Brand_POLO_PRODUCTS_MASSAGE is MATCHED
+Edges: Clicked element By.xpath: //div[@class="left-sidebar"]/div[@class="brands_products"]/div[@class="brands-name"]/ul[@class="nav nav-pills nav-stacked"]/li[2]/a[@href="/brand_products/H&M"]
+Edges: Got text from element By.xpath: //div[@class="features_items"]/h2[@class="title text-center"]: BRAND - H&M PRODUCTS
+the Brand_H_AND_M_PRODUCTS_MASSAGE is MATCHED
+the test case 19 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:47:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC20" classname="suite1.PRODUCTS_TestsCase" time="25.97">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+the element is displayed By.xpath: //div[@class="col-sm-9 padding-right"]/div/h2
+The ALL PRODUCTS MASSAGE is Displayed
+Edges: Sent keys to element By.xpath: //div[@class="container"]/input[@type="text"]
+Edges: Clicked element By.xpath: //div[@class="container"]/button[@type="button"]
+the element is displayed By.xpath: //div[@class="col-sm-9 padding-right"]/div/h2
+The Searched_product_massage is Displayed
+Total products found: 1
+Matched product: blue top
+Products matched with keyword 'Blue Top': 1/1
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a
+Edges: Clicked element By.xpath: //div[@class="product-information"]/span/button[@type="button"]
+Edges: Clicked element By.xpath: //div[@id="cartModal"]/div[@class="modal-dialog modal-confirm"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-success close-modal btn-block"]
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+the element is displayed By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]
+the product_1st_Displayed is displayed
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+Edges: Sent keys to element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/input[@type="email"]
+Edges: Sent keys to element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/input[@type="password"]
+Edges: Clicked element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/button[@type="submit"]
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+the element is displayed By.xpath: //div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]
+the Products_inCart is displayed
+Edges: Got text from element By.xpath: //div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_description"]/h4/a[@href="/product_details/1"]: Blue Top
+the name of product is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[5]/a
+the element is displayed By.xpath: /html/body/section/div/div/div/h2/b
+the Deleted_Account_Displayed is displayed 
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the test case 20 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:48:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC21" classname="suite1.PRODUCTS_TestsCase" time="7.761">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+the element is displayed By.xpath: //div[@class="col-sm-9 padding-right"]/div/h2
+The ALL PRODUCTS MASSAGE is Displayed
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a
+the element is displayed By.xpath: //div[@class="col-sm-12"]/ul[@class="nav nav-tabs"]/li[@class="active"]/a[@href="#reviews"]
+The Write_your_review_MASSAGE is Displayed
+Edges: Sent keys to element By.xpath: //form[@id="review-form"]/span/input[@id="name"]
+Edges: Sent keys to element By.xpath: //form[@id="review-form"]/span/input[@id="email"]
+Edges: Sent keys to element By.xpath: //form[@id="review-form"]/textarea[@name="review"]
+Edges: Clicked element By.xpath: //form[@id="review-form"]/button[@id="button-review"]
+the element is displayed By.xpath: //form[@id="review-form"]/div[@id="review-section"]/div[@class="col-md-12 form-group"]/div[@class="alert-success alert"]/span[@style="font-size: 20px;"]
+The MASSAGE_THANK_FOR_REVIEW is Displayed
+the test case 21 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:49:00 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC22" classname="suite1.PRODUCTS_TestsCase" time="6.794">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Scrolled to element By.xpath: //footer[@id="footer"]/div[@class="footer-widget"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-3 col-sm-offset-1"]/div[@class="single-widget"]/h2 using Actions.scrollToElement().
+the scroll to Subscription Massage is done
+the element is displayed By.cssSelector: div.recommended_items > h2.title.text-center
+the Recommended_Items is displayed
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div/div/div/a/i
+Edges: Clicked element By.xpath: //div[@class="modal-body"]/p[@class="text-center"]/a[@href="/view_cart"]
+the element is displayed By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-6"]
+the product_6st_Displayed_recommended is displayed
+the test case 22 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:49:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC14" classname="suite3.Place_Order_TestsCase" time="36.064">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+the element is displayed By.xpath: //div[@class="col-sm-9 padding-right"]/div/h2
+The ALL PRODUCTS MASSAGE is Displayed
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a
+Edges: Clicked element By.xpath: //div[@class="product-information"]/span/button[@type="button"]
+Edges: Clicked element By.xpath: //div[@id="cartModal"]/div[@class="modal-dialog modal-confirm"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-success close-modal btn-block"]
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+Edges: Page title is 'Automation Exercise - Checkout'
+the title_cart_page is matched
+Edges: Clicked element By.xpath: //section[@id="cart_items"]/div[@class="container"]/section[@id="do_action"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-6"]/a[@class="btn btn-default check_out"]
+Edges: Clicked element By.xpath: //div[@class="modal-body"]/p[@class="text-center"]/a[@href="/login"]
+the element is displayed By.xpath: //div[@class="signup-form"]/h2
+the New User Signup chararter is displayed successfuly
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="text"]
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="email"]
+Edges: Clicked element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/button[@type="submit"]
+the element is displayed By.xpath: //div[@class="login-form"]/h2[@class="title text-center"]/b
+the New User Signup is displayed successfuly
+Edges: Clicked element By.xpath: //div[@id="uniform-id_gender1"]
+Edges: Sent keys to element By.xpath: //div[@class="required form-group"]/input[@type="password"]
+Edges: Selected dropdown value by value: 5
+Edges: Selected dropdown value by value: 12
+Edges: Selected dropdown value by value: 2001
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@class="checker"]/span/input[@id="newsletter"]
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@id="uniform-optin"]/span/input[@id="optin"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="first_name"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="last_name"]
+Edges: Sent keys to element By.xpath: //p[@class="form-group"]/input[@id="company"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address1"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address2"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="city"]
+Edges: Selected dropdown by index: 1
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="state"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="zipcode"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="mobile_number"]
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div[1]/form/button
+the element is displayed By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/h2/b
+Account Created is visable
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_description"]/h4/a[@href="/product_details/1"]: Blue Top
+THE NAME OF PRODUCT is MATCHED
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_price"]/p: Rs. 500
+the price in product1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_quantity"]/button[@class="disabled"]: 1
+the quantity in product1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_total"]/p[@class="cart_total_price"]: Rs. 500
+the TotalPrice in product1 is matched
+Edges: Clicked element By.xpath: //section[@id="cart_items"]/div[@class="container"]/section[@id="do_action"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-6"]/a[@class="btn btn-default check_out"]
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[2]: Mr. abdallah mohammed
+The NAME_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[3]: almentor
+The Company_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[4]: 36 fayedy
+The Address1_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[5]: 35 fayedy
+The Address2_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[6]: helwan Single 11311
+The State_city_postcode_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[7]: United States
+The Country_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[8]: 01017416987
+The NumberPhone_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[2]: Mr. abdallah mohammed
+The NAME_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[3]: almentor
+The Company_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[4]: 36 fayedy
+The Address1_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[5]: 35 fayedy
+The Address2_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[6]: helwan Single 11311
+The State_city_postcode_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[7]: United States
+The Country_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[8]: 01017416987
+The NumberPhone_for_Your_billing_address is matched
+Edges: Sent keys to element By.xpath: //div[@id="ordermsg"]/textarea[@class="form-control"]
+Edges: Clicked element By.xpath: //div/a[@class="btn btn-default check_out"]
+Edges: Scrolled to element By.xpath: //footer/div[@class="footer-bottom"]/div/div/p[@class="pull-left"] using Actions.scrollToElement().
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-12 form-group"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-12 form-group card"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group cvc"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group expiration"]/input[@name="expiry_month"]
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group expiration"]/input[@name="expiry_year"]
+Edges: Clicked element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@id="payment-form"]/div[@class="form-row"]/div[@class="col-md-12 form-group"]/button[@id="submit"]
+Edges: Got text from element By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/p[@style="font-size: 20px; font-family: garamond;"]: Congratulations! Your order has been confirmed!
+the Massage_Order_Is_Confirmed is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[5]/a
+the element is displayed By.xpath: /html/body/section/div/div/div/h2/b
+the the Deleted_Account_Displayed is displayed
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the test case 14 is don successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:49:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC15" classname="suite3.Place_Order_TestsCase" time="35.204">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="signup-form"]/h2
+the New User Signup chararter is displayed successfuly
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="text"]
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="email"]
+Edges: Clicked element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/button[@type="submit"]
+the element is displayed By.xpath: //div[@class="login-form"]/h2[@class="title text-center"]/b
+the New User Signup is displayed successfuly
+Edges: Clicked element By.xpath: //div[@id="uniform-id_gender1"]
+Edges: Sent keys to element By.xpath: //div[@class="required form-group"]/input[@type="password"]
+Edges: Selected dropdown value by value: 5
+Edges: Selected dropdown value by value: 12
+Edges: Selected dropdown value by value: 2001
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@class="checker"]/span/input[@id="newsletter"]
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@id="uniform-optin"]/span/input[@id="optin"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="first_name"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="last_name"]
+Edges: Sent keys to element By.xpath: //p[@class="form-group"]/input[@id="company"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address1"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address2"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="city"]
+Edges: Selected dropdown by index: 1
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="state"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="zipcode"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="mobile_number"]
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div[1]/form/button
+the element is displayed By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/h2/b
+Account Created is visable
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a
+Edges: Clicked element By.xpath: //div[@class="product-information"]/span/button[@type="button"]
+Edges: Clicked element By.xpath: //div[@id="cartModal"]/div[@class="modal-dialog modal-confirm"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-success close-modal btn-block"]
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+cart button is clicked
+Edges: Page title is 'Automation Exercise - Checkout'
+the title_cart_page is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_description"]/h4/a[@href="/product_details/1"]: Blue Top
+THE NAME OF PRODUCT is MATCHED
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_price"]/p: Rs. 500
+the price in product1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_quantity"]/button[@class="disabled"]: 1
+the quantity in product1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_total"]/p[@class="cart_total_price"]: Rs. 500
+the TotalPrice in product1 is matched
+Edges: Clicked element By.xpath: //section[@id="cart_items"]/div[@class="container"]/section[@id="do_action"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-6"]/a[@class="btn btn-default check_out"]
+Proceed_To_Checkout_Button is clicked
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[2]: Mr. abdallah mohammed
+The NAME_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[3]: almentor
+The Company_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[4]: 36 fayedy
+The Address1_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[5]: 35 fayedy
+The Address2_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[6]: helwan Single 11311
+The State_city_postcode_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[7]: United States
+The Country_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[8]: 01017416987
+The NumberPhone_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[2]: Mr. abdallah mohammed
+The NAME_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[3]: almentor
+The Company_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[4]: 36 fayedy
+The Address1_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[5]: 35 fayedy
+The Address2_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[6]: helwan Single 11311
+The State_city_postcode_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[7]: United States
+The Country_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[8]: 01017416987
+The NumberPhone_for_Your_billing_address is matched
+Edges: Scrolled to element By.xpath: //footer[@id="footer"]/div[@class="footer-widget"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-3 col-sm-offset-1"]/div[@class="single-widget"]/h2 using Actions.scrollToElement().
+Edges: Sent keys to element By.xpath: //div[@id="ordermsg"]/textarea[@class="form-control"]
+Edges: Clicked element By.xpath: //div/a[@class="btn btn-default check_out"]
+Edges: Scrolled to element By.xpath: //footer/div[@class="footer-bottom"]/div/div/p[@class="pull-left"] using Actions.scrollToElement().
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-12 form-group"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-12 form-group card"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group cvc"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group expiration"]/input[@name="expiry_month"]
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group expiration"]/input[@name="expiry_year"]
+Edges: Clicked element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@id="payment-form"]/div[@class="form-row"]/div[@class="col-md-12 form-group"]/button[@id="submit"]
+Edges: Got text from element By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/p[@style="font-size: 20px; font-family: garamond;"]: Congratulations! Your order has been confirmed!
+the Massage_Order_Is_Confirmed is matched
+Edges: Clicked element By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/div[@class="pull-right"]/a[@class="btn btn-primary"]
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[5]/a
+the element is displayed By.xpath: /html/body/section/div/div/div/h2/b
+the Deleted_Account_Displayed is displayed 
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the test case 15 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:50:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC0" classname="suite3.Place_Order_TestsCase" time="10.193">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="signup-form"]/h2
+the New User Signup chararter is displayed successfuly
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="text"]
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="email"]
+Edges: Clicked element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/button[@type="submit"]
+the element is displayed By.xpath: //div[@class="login-form"]/h2[@class="title text-center"]/b
+the New User Signup is displayed successfuly
+Edges: Clicked element By.xpath: //div[@id="uniform-id_gender1"]
+Edges: Sent keys to element By.xpath: //div[@class="required form-group"]/input[@type="password"]
+Edges: Selected dropdown value by value: 5
+Edges: Selected dropdown value by value: 12
+Edges: Selected dropdown value by value: 2001
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@class="checker"]/span/input[@id="newsletter"]
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@id="uniform-optin"]/span/input[@id="optin"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="first_name"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="last_name"]
+Edges: Sent keys to element By.xpath: //p[@class="form-group"]/input[@id="company"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address1"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address2"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="city"]
+Edges: Selected dropdown by index: 1
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="state"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="zipcode"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="mobile_number"]
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div[1]/form/button
+the element is displayed By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/h2/b
+Account Created is visable
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:51:03 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC16" classname="suite3.Place_Order_TestsCase" time="34.658">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/h2
+The LOGIN to your account charater is displayed successfuly 
+Edges: Sent keys to element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/input[@type="email"]
+Edges: Sent keys to element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/input[@type="password"]
+Edges: Clicked element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/button[@type="submit"]
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a
+Edges: Clicked element By.xpath: //div[@class="product-information"]/span/button[@type="button"]
+Edges: Clicked element By.xpath: //div[@id="cartModal"]/div[@class="modal-dialog modal-confirm"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-success close-modal btn-block"]
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+cart button is clicked
+Edges: Page title is 'Automation Exercise - Checkout'
+the title_cart_page is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_description"]/h4/a[@href="/product_details/1"]: Blue Top
+THE NAME OF PRODUCT is MATCHED
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_price"]/p: Rs. 500
+the price in product1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_quantity"]/button[@class="disabled"]: 1
+the quantity in product1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_total"]/p[@class="cart_total_price"]: Rs. 500
+the TotalPrice in product1 is matched
+Edges: Clicked element By.xpath: //section[@id="cart_items"]/div[@class="container"]/section[@id="do_action"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-6"]/a[@class="btn btn-default check_out"]
+Proceed_To_Checkout_Button is clicked
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[2]: Mr. abdallah mohammed
+The NAME_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[3]: almentor
+The Company_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[4]: 36 fayedy
+The Address1_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[5]: 35 fayedy
+The Address2_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[6]: helwan Single 11311
+The State_city_postcode_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[7]: United States
+The Country_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[8]: 01017416987
+The NumberPhone_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[2]: Mr. abdallah mohammed
+The NAME_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[3]: almentor
+The Company_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[4]: 36 fayedy
+The Address1_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[5]: 35 fayedy
+The Address2_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[6]: helwan Single 11311
+The State_city_postcode_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[7]: United States
+The Country_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[8]: 01017416987
+The NumberPhone_for_Your_billing_address is matched
+Edges: Sent keys to element By.xpath: //div[@id="ordermsg"]/textarea[@class="form-control"]
+Edges: Clicked element By.xpath: //div/a[@class="btn btn-default check_out"]
+Edges: Scrolled to element By.xpath: //footer/div[@class="footer-bottom"]/div/div/p[@class="pull-left"] using Actions.scrollToElement().
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-12 form-group"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-12 form-group card"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group cvc"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group expiration"]/input[@name="expiry_month"]
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group expiration"]/input[@name="expiry_year"]
+Edges: Clicked element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@id="payment-form"]/div[@class="form-row"]/div[@class="col-md-12 form-group"]/button[@id="submit"]
+Edges: Got text from element By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/p[@style="font-size: 20px; font-family: garamond;"]: Congratulations! Your order has been confirmed!
+the Massage_Order_Is_Confirmed is matched
+Edges: Clicked element By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/div[@class="pull-right"]/a[@class="btn btn-primary"]
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[5]/a
+the element is displayed By.xpath: /html/body/section/div/div/div/h2/b
+the Deleted_Account_Displayed is displayed 
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the test case 16 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:51:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC23" classname="suite2.TEST_CASE_23_And_24" time="28.824">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="signup-form"]/h2
+the New User Signup chararter is displayed successfuly
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="text"]
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="email"]
+Edges: Clicked element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/button[@type="submit"]
+the element is displayed By.xpath: //div[@class="login-form"]/h2[@class="title text-center"]/b
+the New User Signup is displayed successfuly
+Edges: Clicked element By.xpath: //div[@id="uniform-id_gender1"]
+Edges: Sent keys to element By.xpath: //div[@class="required form-group"]/input[@type="password"]
+Edges: Selected dropdown value by value: 5
+Edges: Selected dropdown value by value: 12
+Edges: Selected dropdown value by value: 2001
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@class="checker"]/span/input[@id="newsletter"]
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@id="uniform-optin"]/span/input[@id="optin"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="first_name"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="last_name"]
+Edges: Sent keys to element By.xpath: //p[@class="form-group"]/input[@id="company"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address1"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address2"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="city"]
+Edges: Selected dropdown by index: 1
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="state"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="zipcode"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="mobile_number"]
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div[1]/form/button
+the element is displayed By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/h2/b
+Account Created is visable
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a
+Edges: Clicked element By.xpath: //div[@class="product-information"]/span/button[@type="button"]
+Edges: Clicked element By.xpath: //div[@id="cartModal"]/div[@class="modal-dialog modal-confirm"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-success close-modal btn-block"]
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+cart button is clicked
+Edges: Page title is 'Automation Exercise - Checkout'
+the title_cart_page is matched
+Edges: Clicked element By.xpath: //section[@id="cart_items"]/div[@class="container"]/section[@id="do_action"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-6"]/a[@class="btn btn-default check_out"]
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[2]: Mr. abdallah mohammed
+The NAME_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[3]: almentor
+The Company_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[4]: 36 fayedy
+The Address1_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[5]: 35 fayedy
+The Address2_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[6]: helwan Single 11311
+The State_city_postcode_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[7]: United States
+The Country_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[8]: 01017416987
+The NumberPhone_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[2]: Mr. abdallah mohammed
+The NAME_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[3]: almentor
+The Company_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[4]: 36 fayedy
+The Address1_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[5]: 35 fayedy
+The Address2_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[6]: helwan Single 11311
+The State_city_postcode_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[7]: United States
+The Country_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[8]: 01017416987
+The NumberPhone_for_Your_billing_address is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[5]/a
+the element is displayed By.xpath: /html/body/section/div/div/div/h2/b
+the Deleted_Account_Displayed is displayed 
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the test case 23 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:51:59 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC24" classname="suite2.TEST_CASE_23_And_24" time="52.344">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[2]/a
+the element is displayed By.xpath: //div[@class="col-sm-9 padding-right"]/div/h2
+The ALL PRODUCTS MASSAGE is Displayed
+Edges: Scrolled to element By.cssSelector: a[href="/brand_products/Biba"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: /html/body/section[2]/div/div/div[2]/div/div[2]/div/div[2]/ul/li/a
+Edges: Clicked element By.xpath: //div[@class="product-information"]/span/button[@type="button"]
+Edges: Clicked element By.xpath: //div[@id="cartModal"]/div[@class="modal-dialog modal-confirm"]/div[@class="modal-content"]/div[@class="modal-footer"]/button[@class="btn btn-success close-modal btn-block"]
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+Edges: Page title is 'Automation Exercise - Checkout'
+the title_cart_page is matched
+Edges: Clicked element By.xpath: //section[@id="cart_items"]/div[@class="container"]/section[@id="do_action"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-6"]/a[@class="btn btn-default check_out"]
+Edges: Clicked element By.xpath: //div[@class="modal-body"]/p[@class="text-center"]/a[@href="/login"]
+the element is displayed By.xpath: //div[@class="signup-form"]/h2
+the New User Signup chararter is displayed successfuly
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="text"]
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="email"]
+Edges: Clicked element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/button[@type="submit"]
+the element is displayed By.xpath: //div[@class="login-form"]/h2[@class="title text-center"]/b
+the New User Signup is displayed successfuly
+Edges: Clicked element By.xpath: //div[@id="uniform-id_gender1"]
+Edges: Sent keys to element By.xpath: //div[@class="required form-group"]/input[@type="password"]
+Edges: Selected dropdown value by value: 5
+Edges: Selected dropdown value by value: 12
+Edges: Selected dropdown value by value: 2001
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@class="checker"]/span/input[@id="newsletter"]
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@id="uniform-optin"]/span/input[@id="optin"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="first_name"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="last_name"]
+Edges: Sent keys to element By.xpath: //p[@class="form-group"]/input[@id="company"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address1"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address2"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="city"]
+Edges: Selected dropdown by index: 1
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="state"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="zipcode"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="mobile_number"]
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div[1]/form/button
+the element is displayed By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/h2/b
+Account Created is visable
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_description"]/h4/a[@href="/product_details/1"]: Blue Top
+THE NAME OF PRODUCT is MATCHED
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_price"]/p: Rs. 500
+the price in product1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_quantity"]/button[@class="disabled"]: 1
+the quantity in product1 is matched
+Edges: Got text from element By.xpath: //section[@id="cart_items"]/div[@class="container"]/div[@class="table-responsive cart_info"]/table[@class="table table-condensed"]/tbody/tr[@id="product-1"]/td[@class="cart_total"]/p[@class="cart_total_price"]: Rs. 500
+the TotalPrice in product1 is matched
+Edges: Clicked element By.xpath: //section[@id="cart_items"]/div[@class="container"]/section[@id="do_action"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-6"]/a[@class="btn btn-default check_out"]
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[2]: Mr. abdallah mohammed
+The NAME_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[3]: almentor
+The Company_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[4]: 36 fayedy
+The Address1_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[5]: 35 fayedy
+The Address2_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[6]: helwan Single 11311
+The State_city_postcode_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[7]: United States
+The Country_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_delivery"]/li[8]: 01017416987
+The NumberPhone_for_Your_delivery_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[2]: Mr. abdallah mohammed
+The NAME_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[3]: almentor
+The Company_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[4]: 36 fayedy
+The Address1_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[5]: 35 fayedy
+The Address2_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[6]: helwan Single 11311
+The State_city_postcode_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[7]: United States
+The Country_for_Your_billing_address is matched
+Edges: Got text from element By.xpath: //div[@class="col-xs-12 col-sm-6"]/ul[@id="address_invoice"]/li[8]: 01017416987
+The NumberPhone_for_Your_billing_address is matched
+Edges: Sent keys to element By.xpath: //div[@id="ordermsg"]/textarea[@class="form-control"]
+Edges: Clicked element By.xpath: //div/a[@class="btn btn-default check_out"]
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-12 form-group"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-12 form-group card"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group cvc"]/input
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group expiration"]/input[@name="expiry_month"]
+Edges: Sent keys to element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@action="/payment"]/div[@class="form-row"]/div[@class="col-sm-4 form-group expiration"]/input[@name="expiry_year"]
+Edges: Scrolled to element By.xpath: //footer/div[@class="footer-bottom"]/div/div/p[@class="pull-left"] using Actions.scrollToElement().
+Edges: Clicked element By.xpath: //div[@class="payment-information"]/div[@class="row"]/div[@class="col-md-4"]/form[@id="payment-form"]/div[@class="form-row"]/div[@class="col-md-12 form-group"]/button[@id="submit"]
+Edges: Got text from element By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/p[@style="font-size: 20px; font-family: garamond;"]: Congratulations! Your order has been confirmed!
+the Massage_Order_Is_Confirmed is matched
+Edges: Clicked element By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/a[@class="btn btn-default check_out"]
+File downloaded successfully: invoice.txt
+the file is download successfuly
+Edges: Clicked element By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/div[@class="pull-right"]/a[@class="btn btn-primary"]
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[5]/a
+the element is displayed By.xpath: /html/body/section/div/div/div/h2/b
+the the Deleted_Account_Displayed is displayed
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the test case 24 is don successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:52:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC10" classname="suite2.SUBSCRIPTION_TestsCase" time="0.851">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Scrolled to element By.xpath: //footer/div[@class="footer-bottom"]/div/div/p[@class="pull-left"] using Actions.scrollToElement().
+the element is displayed By.xpath: //footer[@id="footer"]/div[@class="footer-widget"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-3 col-sm-offset-1"]/div[@class="single-widget"]/h2
+the massage is displayed
+Edges: Sent keys to element By.xpath: //footer/div[@class="footer-widget"]/div/div/div[@class="col-sm-3 col-sm-offset-1"]/div/form/input[@type="email"]
+The email is send to text
+Edges: Clicked element By.xpath: //footer/div[@class="footer-widget"]/div/div/div[@class="col-sm-3 col-sm-offset-1"]/div/form/button[@type="submit"]
+the element is displayed By.cssSelector: div.alert-success.alert
+The Subscription_massage_displayed_when_send_email is displayed 
+the test case 10 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:53:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC11" classname="suite2.SUBSCRIPTION_TestsCase" time="3.364">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //div[@class="shop-menu pull-right"]/ul[@class="nav navbar-nav"]/li[3]/a
+Edges: Scrolled to element By.xpath: //footer/div[@class="footer-bottom"]/div/div/p[@class="pull-left"] using Actions.scrollToElement().
+the element is displayed By.xpath: //footer[@id="footer"]/div[@class="footer-widget"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-3 col-sm-offset-1"]/div[@class="single-widget"]/h2
+the massage is displayed
+Edges: Sent keys to element By.xpath: //footer/div[@class="footer-widget"]/div/div/div[@class="col-sm-3 col-sm-offset-1"]/div/form/input[@type="email"]
+The email is send to text
+Edges: Clicked element By.xpath: //footer/div[@class="footer-widget"]/div/div/div[@class="col-sm-3 col-sm-offset-1"]/div/form/button[@type="submit"]
+the element is displayed By.cssSelector: div.alert-success.alert
+The Subscription_massage_displayed_when_send_email is displayed 
+the test case 11 has done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:53:47 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC25" classname="suite2.SUBSCRIPTION_TestsCase" time="0.715">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Scrolled to element By.xpath: //footer/div[@class="footer-bottom"]/div/div/p[@class="pull-left"] using Actions.scrollToElement().
+The Scroll to Footer is Done 
+the element is displayed By.xpath: //footer[@id="footer"]/div[@class="footer-widget"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-3 col-sm-offset-1"]/div[@class="single-widget"]/h2
+The Subscription_Massage is displayed
+Edges: Clicked element By.xpath: //div[@class="item active"]/div[@class="col-sm-6"]/h2
+The Scroll UP BUTTON is Clicked
+the element is displayed By.xpath: //div[@class="item active"]/div[@class="col-sm-6"]/h2
+The Massage_Full_Fledged_practice_website_for_Automation_Engineers IS DISPLAYED
+the Test Case 25 is done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:54:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC26" classname="suite2.SUBSCRIPTION_TestsCase" time="0.819">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Scrolled to element By.xpath: //footer/div[@class="footer-bottom"]/div/div/p[@class="pull-left"] using Actions.scrollToElement().
+The Scroll to Footer is Done 
+the element is displayed By.xpath: //footer[@id="footer"]/div[@class="footer-widget"]/div[@class="container"]/div[@class="row"]/div[@class="col-sm-3 col-sm-offset-1"]/div[@class="single-widget"]/h2
+The Subscription_Massage is displayed
+Edges: Scrolled to element By.xpath: //div[@class="item active"]/div[@class="col-sm-6"]/h2 using Actions.scrollToElement().
+The Scroll UP is DONE
+the element is displayed By.xpath: //div[@class="item active"]/div[@class="col-sm-6"]/h2
+The Massage_Full_Fledged_practice_website_for_Automation_Engineers IS DISPLAYED
+the Test Case 26 is done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:54:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC0" classname="suite2.loginAndSignUp_TestsCase" time="38.418">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="signup-form"]/h2
+the New User Signup chararter is displayed successfuly
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="text"]
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="email"]
+Edges: Clicked element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/button[@type="submit"]
+the element is displayed By.xpath: //div[@class="login-form"]/h2[@class="title text-center"]/b
+the New User Signup is displayed successfuly
+Edges: Clicked element By.xpath: //div[@id="uniform-id_gender1"]
+Edges: Sent keys to element By.xpath: //div[@class="required form-group"]/input[@type="password"]
+Edges: Selected dropdown value by value: 5
+Edges: Selected dropdown value by value: 12
+Edges: Selected dropdown value by value: 2001
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@class="checker"]/span/input[@id="newsletter"]
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@id="uniform-optin"]/span/input[@id="optin"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="first_name"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="last_name"]
+Edges: Sent keys to element By.xpath: //p[@class="form-group"]/input[@id="company"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address1"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address2"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="city"]
+Edges: Selected dropdown by index: 1
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="state"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="zipcode"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="mobile_number"]
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div[1]/form/button
+the element is displayed By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/h2/b
+Account Created is visable
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:54:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC1" classname="suite2.loginAndSignUp_TestsCase" time="36.079">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="signup-form"]/h2
+the New User Signup chararter is displayed successfuly
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="text"]
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="email"]
+Edges: Clicked element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/button[@type="submit"]
+the element is displayed By.xpath: //div[@class="login-form"]/h2[@class="title text-center"]/b
+the New User Signup is displayed successfuly
+Edges: Clicked element By.xpath: //div[@id="uniform-id_gender1"]
+Edges: Sent keys to element By.xpath: //div[@class="required form-group"]/input[@type="password"]
+Edges: Selected dropdown value by value: 5
+Edges: Selected dropdown value by value: 12
+Edges: Selected dropdown value by value: 2001
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@class="checker"]/span/input[@id="newsletter"]
+Edges: Checked the checkbox By.xpath: //div[@class="checkbox"]/div[@id="uniform-optin"]/span/input[@id="optin"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="first_name"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="last_name"]
+Edges: Sent keys to element By.xpath: //p[@class="form-group"]/input[@id="company"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address1"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="address2"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="city"]
+Edges: Selected dropdown by index: 1
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="state"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="zipcode"]
+Edges: Sent keys to element By.xpath: //p[@class="required form-group"]/input[@id="mobile_number"]
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div[1]/form/button
+the element is displayed By.xpath: //div[@class="col-sm-9 col-sm-offset-1"]/h2/b
+Account Created is visable
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[5]/a
+the element is displayed By.xpath: /html/body/section/div/div/div/h2/b
+account deleted successfuly
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the test case 1 is done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:55:30 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC3" classname="suite2.loginAndSignUp_TestsCase" time="5.085">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/h2
+The LOGIN to your account charater is displayed successfuly 
+Edges: Sent keys to element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/input[@type="email"]
+Edges: Sent keys to element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/input[@type="password"]
+Edges: Clicked element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/button[@type="submit"]
+the element is displayed By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/p[@style="color: red;"]
+the Login INVALID INPUT is displayed successfuly
+the test case 3 is done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:56:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC4" classname="suite2.loginAndSignUp_TestsCase" time="16.188">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/h2
+The LOGIN to your account charater is displayed successfuly 
+Edges: Sent keys to element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/input[@type="email"]
+Edges: Sent keys to element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/input[@type="password"]
+Edges: Clicked element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/button[@type="submit"]
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[4]/a
+Edges: Current URL is 'https://automationexercise.com/login'
+the Log OUT Process is done successfuly
+the test case 4 is done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:56:33 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC5" classname="suite2.loginAndSignUp_TestsCase" time="3.519">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="signup-form"]/h2
+the New User Signup chararter is displayed successfuly
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="text"]
+Edges: Sent keys to element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/input[@type="email"]
+Edges: Clicked element By.xpath: //div[@class="signup-form"]/form[@action="/signup"]/button[@type="submit"]
+the element is displayed By.xpath: /html/body/section/div/div/div[3]/div/form/p
+The Email Exist massage displayed successfuly
+the test case 5 is done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:57:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC6" classname="suite2.loginAndSignUp_TestsCase" time="10.057">
+    <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; data-qa=&quot;submit-button&quot; name=&quot;submit&quot; class=&quot;btn btn-primary pull-left submit_form&quot; value=&quot;Submit&quot;&gt; is not clickable at point (238, 474). Other element would receive the click: &lt;div class=&quot;grippy-host&quot;&gt;&lt;/div&gt;&#10;  (Session info: chrome=140.0.7339.185)&#10;Build info: version: &apos;4.34.0&apos;, revision: &apos;707dcb4246*&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;25&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5645d549e83e655d606ec7b8ae3403e4, clickElement {id=f.6B29B520263B90E28186B8B61971AF17.d.49C38041BB4899E0890FC6099B376913.e.62}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ABDALL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52474/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (5645d549e83e655d606ec7b8ae3403e4)] -&gt; xpath: //div[@id=&quot;form-section&quot;]/form[@id=&quot;contact-us-form&quot;]/div/input[@name=&quot;submit&quot;]]&#10;Session ID: 5645d549e83e655d606ec7b8ae3403e4" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <input type="submit" data-qa="submit-button" name="submit" class="btn btn-primary pull-left submit_form" value="Submit"> is not clickable at point (238, 474). Other element would receive the click: <div class="grippy-host"></div>
+  (Session info: chrome=140.0.7339.185)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '25'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5645d549e83e655d606ec7b8ae3403e4, clickElement {id=f.6B29B520263B90E28186B8B61971AF17.d.49C38041BB4899E0890FC6099B376913.e.62}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 140.0.7339.185, chrome: {chromedriverVersion: 140.0.7339.207 (17230b545fd..., userDataDir: C:\Users\ABDALL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52474/devtoo..., se:cdpVersion: 140.0.7339.185, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (5645d549e83e655d606ec7b8ae3403e4)] -> xpath: //div[@id="form-section"]/form[@id="contact-us-form"]/div/input[@name="submit"]]
+Session ID: 5645d549e83e655d606ec7b8ae3403e4
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at EdgesFramework.SeleniumFrameWork.Click(SeleniumFrameWork.java:82)
+	at Pages.ContactUs.Submit_Contact(ContactUs.java:48)
+	at suite2.loginAndSignUp_TestsCase.TC6(loginAndSignUp_TestsCase.java:413)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1269)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[8]/a
+the element is displayed By.xpath: //div[@class="contact-form"]/h2
+GET IT TOUCH massage is Displayed
+Edges: Sent keys to element By.xpath: //div[@id="form-section"]/form[@id="contact-us-form"]/div/input[@name="name"]
+Edges: Sent keys to element By.xpath: //div[@id="form-section"]/form[@id="contact-us-form"]/div/input[@name="email"]
+Edges: Sent keys to element By.xpath: //div[@class="form-group col-md-12"]/input[@name="subject"]
+Edges: Sent keys to element By.xpath: //div[@class="form-group col-md-12"]/textarea[@name="message"]
+Uploaded file: C:\Users\Abdallah Mohammed\OneDrive\Desktop\testing\netBeans\MyFinalProject_V2/src/test/photo/l298n.png
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:57:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC7" classname="suite2.loginAndSignUp_TestsCase" time="2.111">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[5]/a
+the element is displayed By.xpath: //div[@class="row"]/div[@class="col-sm-9 col-sm-offset-1"]/h2/b
+the massage test case is visable 
+the test case 7 is done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:58:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+  <testcase name="TC2" classname="suite2.loginAndSignUp_TestsCase" time="31.434">
+    <system-out><![CDATA[Edges: Browser Closed.
+Edges: Browser Initialized.
+Edges: Navigated to URL: https://automationexercise.com/
+Edges: Page title is 'Automation Exercise'
+The title main page is matched
+Edges: Clicked element By.xpath: //i[@class="fa fa-lock"]
+the element is displayed By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/h2
+The LOGIN to your account charater is displayed successfuly 
+Edges: Sent keys to element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/input[@type="email"]
+Edges: Sent keys to element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/input[@type="password"]
+Edges: Clicked element By.xpath: //div[@class="col-sm-4 col-sm-offset-1"]/div[@class="login-form"]/form[@action="/login"]/button[@type="submit"]
+the element is displayed By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[10]/a/i
+Logged By User Name is visable
+Edges: Clicked element By.xpath: /html/body/header/div/div/div/div[2]/div/ul/li[5]/a
+the element is displayed By.xpath: /html/body/section/div/div/div/h2/b
+account deleted successfuly
+Edges: Clicked element By.xpath: /html/body/section/div/div/div/div/a
+the test case 2 is done successfuly
+]]></system-out>
+    <system-err><![CDATA[Sep 26, 2025 8:58:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 140, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 140
+]]></system-err>
+  </testcase>
+</testsuite>

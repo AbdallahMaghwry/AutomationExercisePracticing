@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite2">
+    <test name="Suite2 Tests">
+        <classes>
+            <class name="suite2.TEST_CASE_23_And_24"/>
+            <class name="suite2.SUBSCRIPTION_TestsCase"/>
+            <class name="suite2.loginAndSignUp_TestsCase"/>
+        </classes>
+    </test>
+</suite>
+
+
